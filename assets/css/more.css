@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4682B4;
+    background: linear-gradient(to right, #003459, #007ea7);
 }
 
 .container {
