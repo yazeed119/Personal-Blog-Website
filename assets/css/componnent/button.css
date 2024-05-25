@@ -12,6 +12,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #003459;
+    background: linear-gradient(to right, #003459, #007ea7);
     color: #ced1da;
+}
+
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 0.875rem;
+        padding: 1rem;
+        margin: 1rem; 
+    }
+
+    .connect {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
 }
