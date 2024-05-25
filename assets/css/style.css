@@ -1,0 +1,125 @@
+@import url("../css/componnent/button.css");
+@import url("../css/componnent/projects.css");
+@import url("../css/componnent/skills.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: linear-gradient(to right, #003459, #007ea7);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background: linear-gradient(to right, #003459, #065c99);
+    padding: 0px;
+    width: auto;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    color: #f5eeee;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.5rem;
+    color: #fff;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.nav-link {
+    display: flex;
+    gap: 1.5rem;
+    color: #fff;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: gold;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+    background: linear-gradient(to right, #025189, #218eb3);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.study{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:gold;
+}
+
+.text-content {
+    display: flex;
+    flex: 1;
+    min-width: 200px;
+    color: #ced1da;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+  }
+
+.title {
+    color: #FAFAD2;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects-container{
+        display: grid;
+        grid-gap: 20px;
+        padding: 40px;
+        margin: 40px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 30px;
+
+    }
+}

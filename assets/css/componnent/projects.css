@@ -1,0 +1,26 @@
+.projects-container {
+    display: grid;
+    grid-gap: 20px;
+    padding: 40px;
+    margin: 40px;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #025189, #218eb3);
+    border-radius: 30px;
+}
+
+.project-item{
+    background: #007ea7;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    min-width: 400px;
+    border-radius: 30px;
+    color: #EEE8AA;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

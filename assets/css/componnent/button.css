@@ -1,0 +1,17 @@
+.button{
+    background-color: #218eb3;
+    border-radius: 5px;
+    color: #ced1da;
+    font-size: 16px;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003459;
+    color: #ced1da;
+}
