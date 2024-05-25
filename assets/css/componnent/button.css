@@ -1,27 +1,44 @@
-.button{
-    background-color: #218eb3;
-    border-radius: 5px;
-    color: #ced1da;
-    font-size: 16px;
-    margin: 20px;
-    padding: 20px;
-    text-decoration: none;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.connect{
+.connect {
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #003459, #007ea7);
     color: #ced1da;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
+.button {
+    background-color: #218eb3;
+    border-radius: 5px;
+    color: #ced1da;
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #186e8b;
+}
 
 @media (max-width: 768px) {
     .button {
         font-size: 0.875rem;
-        padding: 1rem;
-        margin: 1rem; 
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
     }
 
     .connect {
