@@ -13,8 +13,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     padding: 0px;
     background: linear-gradient(to right, #025189, #218eb3);
     border-radius: 30px;
