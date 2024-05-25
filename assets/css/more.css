@@ -1,7 +1,6 @@
 @import url("../css/componnent/button.css");
 @import url("../css/componnent/about.css");
 
-
 body {
     display: flex;
     justify-content: center;
@@ -20,11 +19,11 @@ body {
     background: linear-gradient(to right, #025189, #218eb3);
     border-radius: 30px;
     text-align: center; 
-    margin: 0px;
-    padding: 100px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Adjust padding for smaller screens */
 }
 
-.title{
+.title {
     color: #ced1da;
     font-size: 1.5rem;
     font-weight: bold;
@@ -35,11 +34,20 @@ body {
     margin-top: 10px;
     text-align: center;
     color: #EEE8AA;
-
 }
 
-.description{
+.description {
     color: #EEE8AA;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%; 
+    }
+}
 
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%; 
+    }
+}
