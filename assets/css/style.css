@@ -76,7 +76,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px) and (max-width: 481px) {
     .nav-menu {
         flex-direction: column;
         align-items: center;
