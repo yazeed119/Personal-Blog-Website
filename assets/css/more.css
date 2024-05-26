@@ -1,5 +1,7 @@
 @import url("../css/componnent/button.css");
 @import url("../css/componnent/about.css");
+@import url("../css/componnent/navbar.css");
+
 
 body {
     display: flex;
@@ -13,14 +15,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 200px;
+    width: 1000px;
+    height: 300px;
     padding: 0px;
     background: linear-gradient(to right, #025189, #218eb3);
     border-radius: 30px;
     text-align: center; 
-    margin: 0 auto; 
+    margin: 30px; 
     padding: 20px; 
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+    background: linear-gradient(to right, #025189, #218eb3);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    font-size: small;
 }
 
 .title {
@@ -38,7 +52,10 @@ body {
 
 .description {
     color: #EEE8AA;
+    font-size: 20px;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .container {

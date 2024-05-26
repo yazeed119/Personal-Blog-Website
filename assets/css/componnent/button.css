@@ -1,3 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +19,6 @@ body {
     padding: 10px 0;
     bottom: 0;
     width: 100%;
-    z-index: 1000;
 }
 
 .button {
@@ -33,6 +35,34 @@ body {
 .button:hover {
     background-color: #186e8b;
 }
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+
+
+  .fa-github {
+    color: white;
+  }
+  
 
 @media (max-width: 768px) {
     .button {
